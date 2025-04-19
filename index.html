@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>haojia</title>
-  </head>
-  <body>
-    <h1>Welcome!</h1>
-    <p>This is my homepage.</p>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <div class="min-h-screen flex">
+    <!-- Sidebar -->
+    <aside class="w-full md:w-1/4 bg-gray-100 border-r flex items-center justify-center fixed h-full">
+        <div class="p-6 text-center">
+          <div class="flex flex-col items-center">
+            <img class="w-32 h-32 bg-gray-300 rounded-full" src="profile.jpg"></img>
+            <h2 class="text-xl font-bold mt-4">Jia Hao</h2>
+            <p class="text-sm text-gray-600 mt-2">NLP | LLMs | RAG | Agents | KG</p>
+          </div>
+  
+          <ul class="mt-6 space-y-2 text-sm text-left">
+            <li class="flex items-center space-x-2 text-gray-700">
+              <span>&nbsp;📍</span> <span>&nbsp;China</span>
+            </li>
+            <li class="flex items-center space-x-2 text-gray-800">
+              <span>💻</span> <a href="https://github.com/haojia-hj">Github</a>
+            </li>
+            <!-- <li class="flex items-center space-x-2 text-gray-800">
+              <span>🔬</span> <a href="#">Google Scholar</a>
+            </li>
+            <li class="flex items-center space-x-2 text-gray-800">
+              <span>🔓</span> <a href="#">PubMed</a>
+            </li>
+            <li class="flex items-center space-x-2 text-gray-800">
+              <span>🌐</span> <a href="#">ORCID</a> 
+            </li>-->
+          </ul>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="w-full md:w-3/4 ml-auto p-12 overflow-y-auto">
+      <h2 class="text-xl font-bold mb-2">About me</h2>
+      <p class="text-gray-700 mb-4">
+        I'm currently a M.S. student in Information and Communication Engineering at BUPT. My research interests are Natural Language Processing, Large Language Models, Retrieval-Augmented Generation, and Agent systems. In addition to algorithm research, I also have experience in full-stack development.
+      </p>
+
+      <h1 class="text-xl font-bold mt-8 mb-2">🔥 News</h1>
+      <hr />
+      <ul>
+        <li class="text-gray-700 mt-4"><span style="background-color: rgb(252, 229, 233);color: rgb(248, 130, 149)">2023.09</span>  - Join a web development project to integrate LLMS to automatically build knowledge graphs and question answering.</li>
+      </ul>
+
+      <h1 class="text-xl font-bold mt-8 mb-2">📝 Publications</h1>
+      <hr />
+      <p class="text-gray-700 mt-4">
+        <ul>
+            <li class="text-gray-700 mt-4"></li>
+        </ul>
+      </p>
+    </main>
+  </div>
+</body>
 </html>
+
